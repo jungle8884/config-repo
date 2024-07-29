@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloudstudy
+    username: root
+    password: java711c
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka
